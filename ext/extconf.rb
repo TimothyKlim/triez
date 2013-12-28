@@ -3,6 +3,7 @@ require "mkmf"
 $CFLAGS << ' -Ihat-trie'
 $CPPFLAGS << ' -Ihat-trie'
 $LDFLAGS << ' -Lbuild -ltries'
+have_func('signbit')
 create_makefile 'triez'
 
 # respect header changes
