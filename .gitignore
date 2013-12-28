@@ -1,4 +1,3 @@
-/hat-trie
 /marisa-trie
 *.o
 *.a
@@ -10,3 +9,4 @@ Makefile
 benchmark
 *.gem
 .rbx
+ext/mkmf.log
